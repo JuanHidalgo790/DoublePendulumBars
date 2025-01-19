@@ -13,6 +13,10 @@ $$J _{a} \ddot{\theta} _{1} + J _{x} \cos{(\theta _{1}-\theta _{2})}\ddot{\theta
 
 $$J_{x} \cos{(\theta _{1} - \theta _{2})} \ddot{\theta} _{1} + J _{b} \ddot{\theta} _{2} - J _{x}  \sin{(\theta _{1} - \theta _{2})} \dot{\theta}^{2} _{1} + \mu _{2} \sin{\theta _{2}} + k _{t} (\theta _{2} - \theta _{1})= -c _{2} (\dot{\theta} _{2} - \dot{\theta} _{1})$$
 
+Where 
+
+$$J _{a} = \frac{1}{3}m _{1} L^{2} _{1} + m _{2} L^{2} _{1} \\ J _{b} = \frac{1}{3} m _{2} L^{2} _{2} \\ J _{x} m _{2} L _{1} L _{2}$$
+
 Giving the parameters and the appropriate initial conditions, we get the animation, the dynamic plots, and the phase diagrams!
 
 ![DoublePendulumBarsAnimation](https://github.com/user-attachments/assets/375e783c-92bd-4b3f-9ee7-4f85eb74efbe)
