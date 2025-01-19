@@ -15,7 +15,9 @@ $$J_{x} \cos{(\theta _{1} - \theta _{2})} \ddot{\theta} _{1} + J _{b} \ddot{\the
 
 Where 
 
-$$J _{a} = \frac{1}{3}m _{1} L^{2} _{1} + m _{2} L^{2} _{1} // J _{b} = \frac{1}{3} m _{2} L^{2} _{2} // J _{x} m _{2} L _{1} L _{2}$$
+$$J _{a} = \frac{1}{3}m _{1} L^{2} _{1} + m _{2} L^{2} _{1} \\ 
+J _{b} = \frac{1}{3} m _{2} L^{2} _{2} \\ 
+J _{x} m _{2} L _{1} L _{2}$$
 
 Giving the parameters and the appropriate initial conditions, we get the animation, the dynamic plots, and the phase diagrams!
 
