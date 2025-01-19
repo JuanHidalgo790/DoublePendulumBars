@@ -3,7 +3,7 @@ Code to simulate the dynamics of a double pendulum subjected to an external mome
 
 ## Problem 
 
-A double pendulum consisting of two bars with masses $m_{1}$ and $m_{2}$, has an external moment applied to the first bar, and has losses at the joints, here represented with the damping coefficients $c_{1}$ and $c_{2}$. Also it has a torsional spring at the hinge between the two bars.  
+A double pendulum consisting of two bars with masses $m_{1}$ and $m_{2}$, has an external moment applied at the hinge of the first bar, and has losses at the joints, here represented with the damping coefficients $c_{1}$ and $c_{2}$. Also it has a torsional spring $k_{t}$ at the hinge between the two bars. 
 
 ![figura_barras_thetas_moment_damper_spring](https://github.com/user-attachments/assets/648a997d-b9a3-43ed-847e-91d5ce13d22e)
 
@@ -32,6 +32,18 @@ $m_{2}$ - mass of bar 2 [kg]
 $L_{1}$ - length of bar 1 [m]
 
 $L_{2}$ - length of bar 2 [m]
+
+$g$ - gravity [m/s²]
+
+$k_{t}$ - torsional spring constant [Nm/rad]
+
+$c_{1}$ - damping constant of bar 1 [Nms/rad]
+
+$c_{2}$ - damping constant of bar 2 [Nms/rad]
+
+$mo$ - imposed moment amplitude [Nm]
+
+$Hz$ - imposed moment frequency [Hz]
 
 ## Time of the simulation
 
