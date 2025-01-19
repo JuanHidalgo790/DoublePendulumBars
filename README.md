@@ -17,7 +17,9 @@ Where
 
 $$J _{a} = \frac{1}{3}m _{1} L^{2} _{1} + m _{2} L^{2} _{1}$$ 
 $$J _{b} = \frac{1}{3} m _{2} L^{2} _{2} $$ 
-$$J _{x} m _{2} L _{1} L _{2}$$
+$$J _{x} = \frac{1}{2} m _{2} L _{1} L _{2}$$
+$$ \mu _{1} = (\frac{1}{2} m _{1} + m _{2})gL _{1}$$
+$$ \mu _{2} = \frac{1}{2} m _{2} g L _{2}$$
 
 Giving the parameters and the appropriate initial conditions, we get the animation, the dynamic plots, and the phase diagrams!
 
