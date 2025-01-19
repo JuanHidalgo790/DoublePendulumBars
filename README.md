@@ -7,7 +7,7 @@ A double pendulum consisting of two bars with masses $m_{1}$ and $m_{2}$, has an
 
 ![figura_barras_thetas_moment_damper_spring](https://github.com/user-attachments/assets/648a997d-b9a3-43ed-847e-91d5ce13d22e)
 
-The dynamic of this system is given by two ODEs
+The dynamic of this system is then given by two ODEs
 
 $$J _{a} \ddot{\theta} _{1} + J _{x} \cos{(\theta _{1}-\theta _{2})}\ddot{\theta} _{2} +J _{x} \sin{(\theta _{1} - \theta _{2})} \dot{\theta}^{2} _{2}+\mu _{1} \sin{\theta _{1}} - k _{t}(\theta _{2} - \theta _{1}) =M(t)-c _{1}\dot{\theta} _{1}$$
 
@@ -33,6 +33,8 @@ Giving the parameters and the appropriate initial conditions, we get the animati
 
 ## Input Parameters
 
+### Coefficients
+
 $m_{1}$ - mass of bar 1 [kg]
 
 $m_{2}$ - mass of bar 2 [kg]
@@ -53,7 +55,7 @@ $mo$ - imposed moment amplitude [Nm]
 
 $Hz$ - imposed moment frequency [Hz]
 
-## Time of the simulation
+### Time of the simulation
 
 $t_{0}$ - initial time [s]
 
@@ -61,7 +63,7 @@ $t_{f}$ - final time [s]
 
 $\Delta t$ - timestep [s]
 
-## Initial Conditions
+### Initial Conditions
 
 $\theta_{1}^{0}$ - initial angle 1 [rad]
 
